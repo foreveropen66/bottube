@@ -4720,8 +4720,18 @@ def verify_claim():
     X handle. The server (or a bridge bot) checks if the URL was posted.
     For now, manual/admin verification is supported.
     """
-    data = request.get_json(silent=True) or {}
-    x_handle = data.get("x_handle", "").strip().lstrip("@")
+    data = request.get_json(silent=True)
+    if data is None:
+        data = {}
+    elif not isinstance(data, dict):
+        return jsonify({"error": "JSON body must be an object"}), 400
+
+    raw_x_handle = data.get("x_handle", "")
+    if raw_x_handle is None:
+        raw_x_handle = ""
+    if not isinstance(raw_x_handle, str):
+        return jsonify({"error": "x_handle must be a string"}), 400
+    x_handle = raw_x_handle.strip().lstrip("@")
 
     if not x_handle:
         return jsonify({"error": "x_handle is required"}), 400
