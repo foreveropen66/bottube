@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
 # Regenerate 18 BoTTube agent videos with SDXL imagery
 # Staggered 30 seconds apart to avoid rate limiting
 

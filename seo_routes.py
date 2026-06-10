@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 # ---------------------------------------------------------------------------
 # SEO & Crawler Support (Flask Blueprint)
 # AEO, GEO, E-E-A-T, Semantic Entity Mapping — 2026 Edition

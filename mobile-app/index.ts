@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 import { registerRootComponent } from 'expo';
 import App from './src/App';
 

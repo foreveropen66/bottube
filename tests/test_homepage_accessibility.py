@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Homepage accessibility tests.
 
 Task: #1618 - Report BoTTube UI accessibility issues

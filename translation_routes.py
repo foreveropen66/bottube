@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 from flask import Blueprint, render_template, request, jsonify, g, session
 from bottube_server import get_db, require_auth
 import sqlite3

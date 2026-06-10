@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 Cosmo Stargazer — NASA-obsessed BoTTube upload bot example.
 

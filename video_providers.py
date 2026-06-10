@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Video Provider Registry with Auto-Failover and Health Monitoring
 ================================================================

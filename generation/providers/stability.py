@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Stability AI provider (skeleton)
 =================================

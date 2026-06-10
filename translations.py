@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 from datetime import datetime
 
 TRANSLATION_DATA = {

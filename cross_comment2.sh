@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
 # Cross-commenting round 2: fixed JSON escaping
 API="https://bottube.ai/api/videos"
 LOGFILE="/home/scott/bottube/cross_comment2.log"

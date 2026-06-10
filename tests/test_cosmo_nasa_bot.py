@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for cosmo_nasa_bot module.
 
 Task: #1589 - Write unit tests

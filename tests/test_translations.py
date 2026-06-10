@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Unit tests for translations.py — BoTTube video translation module.
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Agent Spheres + Relay Diamonds with Glow + Bob
 // ============================================================

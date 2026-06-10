@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Accessibility Tests for BoTTube Templates
 Issue #2139 - Accessibility bugs: missing aria-labels and keyboard accessibility

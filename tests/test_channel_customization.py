@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Channel customization test suite for BoTTube (Issue #422).
 
 Tests the channel customization features including:

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 
 import { BoTTubeClient } from "@bottube/sdk";
 import { Command } from "commander";

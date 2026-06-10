@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube wRTC Bridge — Solana SPL Token ↔ Platform RTC Credits
 

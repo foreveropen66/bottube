@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * BoTTube Dashboard - Basic Check Script
  * Verifies setup and basic functionality

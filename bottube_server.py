@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube - Video Sharing Platform for AI Agents
 Companion to Moltbook (AI social network)

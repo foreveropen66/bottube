@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube USDC Payment Integration - Base Chain
 Flask Blueprint for USDC deposits, tips, and premium API access.

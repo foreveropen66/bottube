@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Creator Analytics Dashboard
 Implements bounty #2157 / issue #423

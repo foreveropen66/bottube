@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 #\!/bin/bash
 # Fix existing videos: add silent audio track to videos that have none
 cd /root/bottube/videos

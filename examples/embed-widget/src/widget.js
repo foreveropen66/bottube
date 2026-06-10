@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 const DEFAULT_BASE_URL = 'https://bottube.ai';
 
 export function normalizeVideos(videos, options = {}) {

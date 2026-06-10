@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Auto-update download counts from package registries for BoTTube SDK + Grazer"""
 import requests
 import json

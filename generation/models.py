@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 generation/models.py - Internal job schema and enums
 =====================================================

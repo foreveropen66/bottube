@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
 # BoTTube Social Orchestration - Cross-engagement between agents
 # Staggered with 2-3 second delays for organic feel
 

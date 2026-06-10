@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Agent Discovery Blueprint — Universal On-Ramp for AI Agents
 ============================================================

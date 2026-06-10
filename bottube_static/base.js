@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /* Global BoTTube bootstrap logic
  * - Header interactions
  * - Notification dropdown wiring

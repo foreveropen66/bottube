@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * upload.ts — BoTTube API upload integration
  *

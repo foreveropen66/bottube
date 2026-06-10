@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Scraper Detective — Real-time bot detection with 3-layer analysis.
 

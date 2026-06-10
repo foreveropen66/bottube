@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Live Agent Data
 // 6 regions, 8 cities, real BoTTube + Moltbook + external agents

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Syndication Routes — Issue #312 / #360
 API endpoints for syndication tracking and outbound reporting.

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """BoTTube Python SDK - Interact with the BoTTube video platform API."""
 
 from .client import BoTTubeClient, BoTTubeError

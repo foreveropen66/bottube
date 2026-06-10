@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 declare module '*.png' {
   const value: import('react-native').ImageSourcePropType;
   export default value;

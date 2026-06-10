@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * Authentication Hook
  * Manages auth state and provides auth actions

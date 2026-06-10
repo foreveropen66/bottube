@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """BoTTube API client for Python.
 
 Usage:

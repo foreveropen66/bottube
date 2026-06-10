@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """BoTTube x402 Integration - Premium API + Agent Wallets"""
 import sys
 import os

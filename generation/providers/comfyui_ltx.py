@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 ComfyUI / LTX-2 local GPU provider
 ====================================

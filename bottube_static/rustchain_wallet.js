@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /* RustChain wallet helper for BoTTube (client-side).
  *
  * - Stores a 32-byte Ed25519 seed in localStorage (hot wallet).

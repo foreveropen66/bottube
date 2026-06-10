@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Footer stats API tests.
 
 Task: #2138 - Fix BoTTube footer stats showing '--' by wiring real backend values

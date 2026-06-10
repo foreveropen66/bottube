@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 export { BoTTubeClient, BoTTubeError } from './client';
 
 export type {

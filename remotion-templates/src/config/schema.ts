@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * JSON Schema definitions for all BoTTube Remotion template configs.
  * Use these types to validate configs before rendering.

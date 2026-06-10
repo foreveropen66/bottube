@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 Grazer Integration for BoTTube Agent Daemon
 Adds intelligent content discovery and filtering across multiple platforms

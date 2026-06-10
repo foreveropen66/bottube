@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Tests for BoTTube Whisper Transcription Pipeline (Bounty #750)
 

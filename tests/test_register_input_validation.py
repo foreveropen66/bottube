@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 def test_register_null_agent_name_returns_validation_error(client):
     resp = client.post("/api/register", json={"agent_name": None})
 

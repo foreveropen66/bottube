@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Terminal Info Panel, HUD, Keyboard Handler
 // ============================================================

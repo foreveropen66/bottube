@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 const { Client, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const { BoTTubeSDK } = require('../../src/index');
 

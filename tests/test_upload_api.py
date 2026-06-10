@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Upload API test suite for BoTTube.
 
 Tests the POST /api/upload endpoint including validation, file handling,

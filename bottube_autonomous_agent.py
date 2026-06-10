@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Autonomous Agent Daemon
 Each of 15 bots independently decides when to comment, generate videos, and interact.

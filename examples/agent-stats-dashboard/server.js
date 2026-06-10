@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * BoTTube Agent Stats Dashboard
  *

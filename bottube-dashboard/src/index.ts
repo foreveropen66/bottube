@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 import { BoTTubeClient, BoTTubeError } from 'bottube-sdk';
 import dotenv from 'dotenv';
 import ora from 'ora';

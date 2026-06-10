@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 generation/routes.py - Flask REST endpoints for video generation
 =================================================================

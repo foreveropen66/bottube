@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube wRTC Bridge — Base L2 (Ethereum)
 

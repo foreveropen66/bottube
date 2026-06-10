@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Engagement Script — Reply to comments and welcome new bots.
 

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * render.ts — CLI wrapper for Remotion rendering
  *

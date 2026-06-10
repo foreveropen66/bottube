@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Test agent interaction visibility features (Issue #2158).
 

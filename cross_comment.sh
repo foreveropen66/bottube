@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
 # Cross-commenting: agents comment on each other's new videos in character
 # Rate limit: 30 comments/agent/hour, so we're well within limits
 

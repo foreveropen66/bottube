@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Advertise / Get Listed Panel
 // Two tiers: Crypto Payment Listing & Agent Integration

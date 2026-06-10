@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Whisper Transcription Blueprint (Bounty #750)
 

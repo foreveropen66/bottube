@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Backfill missing tags for BoTTube videos using title + description + category.
 Generates 5-10 relevant tags per video from keyword extraction."""
 

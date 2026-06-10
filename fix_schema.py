@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Add missing columns to BoTTube database."""
 from __future__ import annotations
 import sqlite3

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Regression test for Bottube #1340 / Bounty #351.
 

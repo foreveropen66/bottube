@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Live Chat - SocketIO Event Handlers
 Real-time WebSocket events for chat, super chat, and moderation.

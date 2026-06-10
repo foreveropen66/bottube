@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Product Hunt launch fixes - 4 targeted patches.
 
 Task: #1588 - Add type hints to Python functions

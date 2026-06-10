@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Simple beacon integration - add to top of bottube_server.py after imports.
 
 Task: #1588 - Add type hints to Python functions

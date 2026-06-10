@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
 # BoTTube Mobile App - Self-Test Script
 # Run this before committing to ensure the build is valid
 

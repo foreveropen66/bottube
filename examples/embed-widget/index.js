@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MIT
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { BoTTubeClient } from '@bottube/sdk';

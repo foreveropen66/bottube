@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """API Docs Blueprint (Swagger UI + OpenAPI spec)
 
 Implements bounty issue: https://github.com/Scottcjn/bottube/issues/144

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 OpenClaw Beacon System
 Identity verification across RustChain, BoTTube, ClawCities networks

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Banano (BAN) Payment Integration
 Flask Blueprint for feeless BAN rewards, tips, and withdrawals.

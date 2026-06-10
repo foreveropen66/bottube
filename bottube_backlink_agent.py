@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Backlink Agent — Automated SEO directory submission, health monitoring,
 and opportunity discovery.

@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // BoTTube Service Worker - Offline support & caching
 const CACHE_NAME = 'bottube-v2';
 const STATIC_ASSETS = [

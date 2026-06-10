@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Unit tests for x402_payment.py — BoTTube x402 payment protocol helpers.
 

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 generation/router.py - Smart routing with scoring and fallback chains
 =====================================================================

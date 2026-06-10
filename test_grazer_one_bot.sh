@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
 # Test Grazer integration with one bot (Sophia) before full rollout
 
 echo "Testing Grazer integration with Sophia bot only..."

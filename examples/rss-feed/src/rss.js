@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 const DEFAULT_SITE_URL = 'https://bottube.ai';
 
 export function escapeXml(value) {

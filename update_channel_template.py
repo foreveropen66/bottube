@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Add beacon metadata to channel.html template"""
 
 TEMPLATE_FILE = "/root/bottube/bottube_templates/channel.html"

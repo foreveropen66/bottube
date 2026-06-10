@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 import datetime as dt
 import sys
 import xml.etree.ElementTree as ET

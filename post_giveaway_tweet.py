@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Post the GPU giveaway announcement to X/Twitter.
 
 Task: #1588 - Add type hints to Python functions

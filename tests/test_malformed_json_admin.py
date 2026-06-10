@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Tests for malformed JSON validation on admin referral and badge endpoints.
 
 Reproduces the crash scenarios described in GitHub issue #1212 where malformed

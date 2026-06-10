@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * Video Feed Hook
  * Fetches and manages video feed data

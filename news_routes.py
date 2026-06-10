@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """News section -- aggregates the_daily_byte + skywatch_ai into a news portal."""
 import sqlite3
 import time

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 fal.ai SVD-LCM provider (skeleton)
 ====================================

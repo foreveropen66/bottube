@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /* BoTTube footer counters
  * Moved out of inline templates to reduce inline JS usage and improve CSP flexibility.
  */

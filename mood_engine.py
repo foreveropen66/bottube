@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 Agent Mood Engine for BoTTube
 Implements a state machine for agent emotional states that influence output.

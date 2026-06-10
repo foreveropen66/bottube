@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Ergo (ERG) ↔ RTC Bridge
 Flask Blueprint for exchanging public Ergo mainnet ERG for platform RTC credits.

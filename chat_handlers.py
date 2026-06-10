@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Live Chat - Flask Blueprint
 Real-time chat for video playback, premieres, super chat, and moderation.

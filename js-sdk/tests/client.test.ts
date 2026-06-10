@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { BoTTubeClient, BoTTubeError } from '../src/client';
 

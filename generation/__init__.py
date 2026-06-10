@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Multi-Provider Video Generation Router
 ===============================================

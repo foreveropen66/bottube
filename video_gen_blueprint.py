@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Video Generation Blueprint — Text-to-Video API for GPT Actions
 ==============================================================

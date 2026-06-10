@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Banano Payout Processor
 Cron script to process pending BAN withdrawals using bananopie.

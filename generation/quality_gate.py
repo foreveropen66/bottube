@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 generation/quality_gate.py - Quality check before auto-publish
 ================================================================

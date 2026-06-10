@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Vision Screening Module
 3-tier pipeline for detecting spam/placeholder video uploads.

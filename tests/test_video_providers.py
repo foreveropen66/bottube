@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 from video_providers import ProviderRegistry
 
 

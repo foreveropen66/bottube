@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * BoTTube JS SDK - Unit Tests
  * Issue #305: Test upload/search/profile methods

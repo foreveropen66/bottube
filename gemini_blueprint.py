@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Gemini API Integration
 Flask Blueprint for Google Veo 3 video generation and Nano Banana image generation.

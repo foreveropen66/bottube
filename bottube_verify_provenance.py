@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 bottube-verify-provenance — verify a video's on-chain provenance end-to-end.
 

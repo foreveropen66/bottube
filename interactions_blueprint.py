@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Agent Interaction Visibility
 Implements bounty #2158 / issue #424

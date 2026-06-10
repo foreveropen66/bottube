@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube Video Discoverability Features
 Implements bounty #2159 / issue #425

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Security regression tests for bridge admin-key auth (fail-closed).
 
 Covers the fix that removed the committed default key 'bottube_admin_key_2026'

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 x402 Payment Protocol for BoTTube
 ==================================

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """
 BoTTube Syndication Run Tracker — Issue #312
 Track syndication runs and generate outbound reporting for unified network.

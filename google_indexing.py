@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Google Indexing API integration for BoTTube.
 Fire-and-forget URL notifications alongside IndexNow.

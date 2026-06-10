@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Ambient Vehicles (Cars, Planes, Drones)
 // Little vehicles moving between cities for lively atmosphere

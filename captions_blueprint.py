@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 BoTTube auto-captions with provider fallback.
 

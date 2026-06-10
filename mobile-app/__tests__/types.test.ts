@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * Type Tests
  * Ensures API types are correctly defined

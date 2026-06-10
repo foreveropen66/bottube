@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Accessibility Test Suite - ARIA Label Coverage
 Issue #417: Accessibility sweep for missing aria-labels on interactive buttons

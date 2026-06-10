@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Setup script for bottube-verify, the open-source provenance verifier."""
 
 from setuptools import setup

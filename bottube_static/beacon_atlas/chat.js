@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Agent Chat Module
 // Terminal-style comms channel for talking to agents

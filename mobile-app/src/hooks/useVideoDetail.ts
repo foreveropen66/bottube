@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * Video Detail Hook
  * Fetches and manages single video data

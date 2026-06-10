@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 def _auth_headers(api_key):
     return {"X-API-Key": api_key}
 

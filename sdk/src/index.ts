@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 /**
  * BoTTube JS SDK - Main Implementation
  * Issue #305: Add upload/search/profile methods

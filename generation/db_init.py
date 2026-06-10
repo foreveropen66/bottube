@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 generation/db_init.py - Database initialization for generation router
 ======================================================================

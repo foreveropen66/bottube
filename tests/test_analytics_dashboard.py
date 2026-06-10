@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """
 Tests for Creator Analytics Dashboard (issue #423).
 Tests cover:

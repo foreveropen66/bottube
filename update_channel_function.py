@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Update channel() function to include beacon data.
 
 Task: #1588 - Add type hints to Python functions

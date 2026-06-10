@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Apply Grazer integration to autonomous agent daemon.
 
 Task: #1588 - Add type hints to Python functions

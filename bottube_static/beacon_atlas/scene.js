@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // ============================================================
 // BEACON ATLAS - Three.js Scene, Camera, Controls, Raycaster
 // ============================================================
