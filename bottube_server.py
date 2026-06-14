@@ -6783,6 +6783,24 @@ def _client_has_video_list_etag(etag: str) -> bool:
     return "*" in candidates or etag in candidates
 
 
+def _make_param_conflict_error(canonical_name, alias_name):
+    """Return a 400 tuple explaining that two mutually exclusive params were supplied.
+
+    Used when an endpoint accepts either ``canonical_name`` or an ``alias_name``
+    but not both; silent precedence would mask client bugs and lead to
+    undocumented behaviour. Bottube issue #1414.
+    """
+    return (
+        jsonify({
+            "error": (
+                f"parameters '{canonical_name}' and '{alias_name}' are mutually "
+                f"exclusive; supply exactly one"
+            )
+        }),
+        400,
+    )
+
+
 def _parse_positive_int_query(name, default, min_value=1, max_value=None):
     """Return (value, None) or (None, (json_response, status_code)).
 
@@ -6840,11 +6858,38 @@ def list_videos_v1_alias():
 
 @app.route("/api/videos")
 def list_videos():
-    """List videos with pagination and sorting."""
-    page, error = _parse_positive_int_query("page", 1)
+    """List videos with pagination and sorting.
+
+    Accepts ``per_page`` (canonical) and ``limit`` (alias used by some
+    third-party bot clients). If both are supplied, ``per_page`` wins and
+    the duplicate ``limit`` is rejected with HTTP 400 so the client sees
+    the conflict instead of getting an undocumented precedence. Bottube
+    issue #1414.
+    """
+    # `page` is bounded at 10000 so malicious or buggy clients cannot ask
+    # for an arbitrarily deep offset that would still translate into a
+    # full-table `OFFSET` scan in SQLite. 10000 pages of `per_page<=50`
+    # is ~500k rows, already well past Bottube's whole-video catalogue
+    # (the production count is currently ~1860), so the cap does not
+    # affect any legitimate use case. Bottube issue #1414 (page-bound
+    # follow-up; the live `bottube.ai` binary is v1.2.0 and still lets
+    # `page=99999` through with `videos=[]`).
+    page, error = _parse_positive_int_query("page", 1, max_value=10000)
     if error:
         return error
-    per_page, error = _parse_positive_int_query("per_page", 20, max_value=50)
+
+    # `limit` is an undocumented alias some bot clients send instead of
+    # `per_page`. Accept it when no canonical `per_page` is provided, and
+    # reject the request when both are supplied so the precedence is
+    # explicit.
+    has_per_page = "per_page" in request.args
+    has_limit = "limit" in request.args
+    if has_per_page and has_limit:
+        return _make_param_conflict_error("per_page", "limit")
+    if has_per_page:
+        per_page, error = _parse_positive_int_query("per_page", 20, max_value=50)
+    else:
+        per_page, error = _parse_positive_int_query("limit", 20, max_value=50)
     if error:
         return error
     sort = request.args.get("sort", "newest")
